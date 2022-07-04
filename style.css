@@ -1,0 +1,45 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.items {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+h2 {
+    padding: 20px 20px;
+    background-color:rgb(214, 170, 12)
+}
+
+.text {
+    display: block;
+    background-color: rgb(214, 170, 12);
+    
+}
+
+#container2 {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 250px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+.images {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+h3, p {
+    background-color: aliceblue;
+}
